@@ -1,0 +1,126 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.spydison.todolistjava"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:6:5-32:19
+12        android:allowBackup="true"
+12-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\Nupur Jain\.gradle\caches\transforms-3\0638d9dacb5fd10604e28ec2b4d3c80b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:8:9-65
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:fullBackupContent="@xml/backup_rules"
+17-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:9:9-54
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:11:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.ToDoListJava" >
+23-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:14:9-50
+24        <activity
+24-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:16:9-19:60
+25            android:name="com.spydison.todolistjava.ui.login.LoginActivity"
+25-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:17:13-51
+26            android:exported="false"
+26-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:18:13-37
+27            android:label="@string/title_activity_login" />
+27-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:19:13-57
+28        <activity
+28-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:20:9-22:40
+29            android:name="com.spydison.todolistjava.DataInsert"
+29-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:21:13-39
+30            android:exported="false" />
+30-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:22:13-37
+31        <activity
+31-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:23:9-31:20
+32            android:name="com.spydison.todolistjava.MainActivity"
+32-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:24:13-41
+33            android:exported="true" >
+33-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:25:13-36
+34            <intent-filter>
+34-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:26:13-30:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:27:17-69
+35-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:27:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:29:17-77
+37-->C:\Users\Nupur Jain\AndroidStudioProjects\Dev50\ToDoListJava\app\src\main\AndroidManifest.xml:29:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <provider
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nupur Jain\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+42            android:name="androidx.startup.InitializationProvider"
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nupur Jain\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+43            android:authorities="com.spydison.todolistjava.androidx-startup"
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nupur Jain\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+44            android:exported="false" >
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nupur Jain\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+45            <meta-data
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nupur Jain\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nupur Jain\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+47                android:value="androidx.startup" />
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Nupur Jain\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+48            <meta-data
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nupur Jain\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nupur Jain\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+50                android:value="androidx.startup" />
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nupur Jain\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+51            <meta-data
+51-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\Nupur Jain\.gradle\caches\transforms-3\a01ab10b4164669f9f8f27a8a1c47f28\transformed\profileinstaller-1.0.1\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+52-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\Nupur Jain\.gradle\caches\transforms-3\a01ab10b4164669f9f8f27a8a1c47f28\transformed\profileinstaller-1.0.1\AndroidManifest.xml:32:17-85
+53                android:value="androidx.startup" />
+53-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\Nupur Jain\.gradle\caches\transforms-3\a01ab10b4164669f9f8f27a8a1c47f28\transformed\profileinstaller-1.0.1\AndroidManifest.xml:33:17-49
+54        </provider>
+55
+56        <service
+56-->[androidx.room:room-runtime:2.4.3] C:\Users\Nupur Jain\.gradle\caches\transforms-3\435fb858b783cfc10a1eb93e83edeeca\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+57            android:name="androidx.room.MultiInstanceInvalidationService"
+57-->[androidx.room:room-runtime:2.4.3] C:\Users\Nupur Jain\.gradle\caches\transforms-3\435fb858b783cfc10a1eb93e83edeeca\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+58            android:directBootAware="true"
+58-->[androidx.room:room-runtime:2.4.3] C:\Users\Nupur Jain\.gradle\caches\transforms-3\435fb858b783cfc10a1eb93e83edeeca\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+59            android:exported="false" />
+59-->[androidx.room:room-runtime:2.4.3] C:\Users\Nupur Jain\.gradle\caches\transforms-3\435fb858b783cfc10a1eb93e83edeeca\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+60
+61        <receiver
+61-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\Nupur Jain\.gradle\caches\transforms-3\a01ab10b4164669f9f8f27a8a1c47f28\transformed\profileinstaller-1.0.1\AndroidManifest.xml:36:9-45:20
+62            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+62-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\Nupur Jain\.gradle\caches\transforms-3\a01ab10b4164669f9f8f27a8a1c47f28\transformed\profileinstaller-1.0.1\AndroidManifest.xml:37:13-76
+63            android:directBootAware="false"
+63-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\Nupur Jain\.gradle\caches\transforms-3\a01ab10b4164669f9f8f27a8a1c47f28\transformed\profileinstaller-1.0.1\AndroidManifest.xml:38:13-44
+64            android:enabled="true"
+64-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\Nupur Jain\.gradle\caches\transforms-3\a01ab10b4164669f9f8f27a8a1c47f28\transformed\profileinstaller-1.0.1\AndroidManifest.xml:39:13-35
+65            android:exported="true"
+65-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\Nupur Jain\.gradle\caches\transforms-3\a01ab10b4164669f9f8f27a8a1c47f28\transformed\profileinstaller-1.0.1\AndroidManifest.xml:40:13-36
+66            android:permission="android.permission.DUMP" >
+66-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\Nupur Jain\.gradle\caches\transforms-3\a01ab10b4164669f9f8f27a8a1c47f28\transformed\profileinstaller-1.0.1\AndroidManifest.xml:41:13-57
+67            <intent-filter>
+67-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\Nupur Jain\.gradle\caches\transforms-3\a01ab10b4164669f9f8f27a8a1c47f28\transformed\profileinstaller-1.0.1\AndroidManifest.xml:42:13-44:29
+68                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+68-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\Nupur Jain\.gradle\caches\transforms-3\a01ab10b4164669f9f8f27a8a1c47f28\transformed\profileinstaller-1.0.1\AndroidManifest.xml:43:17-91
+68-->[androidx.profileinstaller:profileinstaller:1.0.1] C:\Users\Nupur Jain\.gradle\caches\transforms-3\a01ab10b4164669f9f8f27a8a1c47f28\transformed\profileinstaller-1.0.1\AndroidManifest.xml:43:25-88
+69            </intent-filter>
+70        </receiver>
+71    </application>
+72
+73</manifest>
